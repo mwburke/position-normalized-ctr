@@ -37,11 +37,11 @@ Data should be a pandas Dataframe with the number of impressions and number of c
 
 You can either import the module and run the analysis on a dataframe to add the results to a script or you can run it directly on input files with
 
-`pnctr.py -f <input_filepath> -a <alpha_value> -b <beta_value> -c <convergence_tolerance> -v <verbosity, 1 for print statements, 0 otherwise>`
+`python pnctr.py -f <input_filepath> -a <alpha_value> -b <beta_value> -c <convergence_tolerance> -v <verbosity, 1 for print statements, 0 otherwise>`
 
 or
 
-`pnctr.py --file=<input_filepath> --alpha=<alpha_value> --beta=<beta_value> --covnergence=<convergence_tolerance> --verbose=<verbosity, 1 for print statements, 0 otherwise>`
+`python pnctr.py --file=<input_filepath> --alpha=<alpha_value> --beta=<beta_value> --covnergence=<convergence_tolerance> --verbose=<verbosity, 1 for print statements, 0 otherwise>`
 
 ## Dependencies
 
